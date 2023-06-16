@@ -3,6 +3,7 @@
 *main - A Programs that prints the size
 *Return: 0 (Success)
 */
+int main(void)
 {
 char a;
 int b;
@@ -17,4 +18,3 @@ printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 printf("Size of a long float: %lu byte(s)\n", (unsigned long)sizeof(f));
 return (0);
 }
-
