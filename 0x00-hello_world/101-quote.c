@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
 *main - A c Programs that prints the line
-*Return: 0 (Success)
+*Return: 1 (Success)
 */
 int main(void)
 {
