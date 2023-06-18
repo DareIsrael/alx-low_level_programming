@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 *main - A Programs that prints the size
 *Return: 0 (Success)
