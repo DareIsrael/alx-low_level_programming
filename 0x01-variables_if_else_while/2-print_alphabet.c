@@ -1,20 +1,19 @@
 #include <stdio.h>
 /**
-*main - A Programs that putchar
+*main - A Programs that prints the size
 *Return: 0 (Success)
 */
 int main(void)
 {
-int c;
+char c;
 
 c = 'a';
-
 while (c <= 'z')
 {
 putchar(c);
 c++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
 
