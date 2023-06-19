@@ -1,25 +1,17 @@
 #include <stdio.h>
 /**
-*main - A Programs that prints the size
-*Return: 0 (Success)
+* main - Prints the alphabet.
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-char n;
-n = 97;
-char m;
-m = 65;
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i;
 
-while (n <= 122)
+for (i = 0; i < 52; i++)
 {
-putchar(n);
-n++;
-}
-while (m <= 90)
-{
-putchar(m);
-m++;
+putchar(alp[i]);
 }
 putchar('\n');
-return (0);
+	return (0);
 }
