@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "3-main.c"
 /**
  * print_numbers - print the numbers from 0 to 9
  * Description: You can only use _putchar twice
